@@ -1,12 +1,11 @@
 <template>
 
 
-  <headerr></headerr>
 
   <div class="container mt-3">
    
-
-    <formulario></formulario>
+    <Header/>
+    <Formulario/>
 
 
 
@@ -18,16 +17,18 @@
 
 
 <script>
-  import headerr from "./components/headerr.vue"
-  import formulario from "./components/formulario.vue";
+  import Header from "./components/Header.vue"
+  import Formulario from "./components/Formulario.vue";
 
   export default{
     components: {
-      headerr,
-      formulario,
+      Header,
+      Formulario,
     }
 
   }
+
+  
 
 </script>
 
